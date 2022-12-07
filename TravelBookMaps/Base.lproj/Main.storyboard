@@ -53,12 +53,12 @@
                                 <rect key="frame" x="0.0" y="305" width="393" height="461"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ZY-wY-wzo">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ZY-wY-wzo">
                                 <rect key="frame" x="37" y="116" width="320" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Comment" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UL0-0f-Kkk">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Comment" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UL0-0f-Kkk">
                                 <rect key="frame" x="36" y="178" width="320" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -79,13 +79,13 @@
                             <constraint firstItem="UL0-0f-Kkk" firstAttribute="centerX" secondItem="nG0-Dp-RIC" secondAttribute="centerX" id="5Le-jo-Cpq"/>
                             <constraint firstItem="UL0-0f-Kkk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Irz-Xl-cAE"/>
                             <constraint firstItem="P9w-8P-Ijq" firstAttribute="centerX" secondItem="nG0-Dp-RIC" secondAttribute="centerX" id="MNG-YK-YHw"/>
-                            <constraint firstItem="0ZY-wY-wzo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="NNa-Zt-4yX"/>
+                            <constraint firstItem="0ZY-wY-wzo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="NNa-Zt-4yX"/>
                             <constraint firstItem="0ZY-wY-wzo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="P3Z-dt-ezp"/>
                             <constraint firstItem="P9w-8P-Ijq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="Qdy-TA-SgJ"/>
                             <constraint firstItem="nG0-Dp-RIC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="V8w-lu-okz"/>
                             <constraint firstItem="0ZY-wY-wzo" firstAttribute="centerX" secondItem="nG0-Dp-RIC" secondAttribute="centerX" id="XXM-KO-7ca"/>
                             <constraint firstItem="P9w-8P-Ijq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bP0-uT-vRB"/>
-                            <constraint firstItem="nG0-Dp-RIC" firstAttribute="top" secondItem="UL0-0f-Kkk" secondAttribute="bottom" constant="49" id="f4D-lz-dZR"/>
+                            <constraint firstItem="nG0-Dp-RIC" firstAttribute="top" secondItem="UL0-0f-Kkk" secondAttribute="bottom" constant="93" id="f4D-lz-dZR"/>
                             <constraint firstItem="UL0-0f-Kkk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="fFg-hs-vY4"/>
                             <constraint firstItem="UL0-0f-Kkk" firstAttribute="top" secondItem="0ZY-wY-wzo" secondAttribute="bottom" constant="28" id="gqb-6y-Hrn"/>
                             <constraint firstItem="nG0-Dp-RIC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-52" id="nyl-HE-CTo"/>

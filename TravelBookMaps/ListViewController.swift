@@ -26,7 +26,11 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         GetData()
     }
     
-    func GetData(){
+    override func viewWillAppear(_ animated: Bool) {
+        NotificationCenter.default.addObserver(self, selector: #selector(GetData), name: NSNotification.Name("newPlace"), object: nil)
+    }
+    
+    @objc func GetData(){
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
         
